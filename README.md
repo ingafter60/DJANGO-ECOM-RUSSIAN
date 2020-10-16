@@ -4,6 +4,9 @@
 
 ## 2. Creating django project 'mysite' 
 
+## 3. Creating django app 'home' 
+
+
 
 
 
