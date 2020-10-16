@@ -40,3 +40,5 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 ### 19. Add git repo to github
 
 ### 20. Create table Images and OneTOMany relationship between Product and Images + run migrations
+
+### 21. Register Images table to product app admin
