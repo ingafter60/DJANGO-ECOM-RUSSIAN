@@ -6,7 +6,7 @@
 
 ## 3. Creating django app 'home' 
 
-
+## 4. Register home app to settings
 
 
 
