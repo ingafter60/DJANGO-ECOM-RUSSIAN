@@ -12,7 +12,7 @@
 
 ## 6. Create django app 'product' and register it to settings 
 
-
+## 7. Setting up MySQL database and createsuperuser
 
 
 
