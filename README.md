@@ -48,3 +48,5 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 	### 23. In product admin, create class of ProductImageInline to make a product can have more then one image
 
 	### 24. Implemet Richtext Editor Ckeditor
+
+	### 25. In home app, create Setting model and run migration
