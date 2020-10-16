@@ -20,6 +20,8 @@
 
 ## 10. Setting up media files in project's settings.py and urls.py
 
+## 11. Add category + image, child category + image
+
 
 
 
