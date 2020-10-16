@@ -14,6 +14,8 @@
 
 ## 7. Setting up MySQL database and createsuperuser
 
+## 8. Create product Category model as PARENT AND CHILDREN and register it to product admin
+
 
 
 
