@@ -41,4 +41,6 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 
 ### 20. Create table Images and OneTOMany relationship between Product and Images + run migrations
 
-### 21. Register Images table to product app admin
+### 21. Register Images table to product app admin 
+
+### 22. Create a new product with some images
