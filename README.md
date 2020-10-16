@@ -8,7 +8,7 @@
 
 ## 4. Register home app to settings
 
-
+## 5. Added and loaded html template to home app
 
 
 
