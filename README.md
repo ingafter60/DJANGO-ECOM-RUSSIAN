@@ -28,5 +28,6 @@
 
 ## 14. Register Produc model in product admin
 
+## 15. Add OneToMany relationship between Category model and Product model
 
 
