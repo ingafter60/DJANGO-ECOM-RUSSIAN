@@ -26,7 +26,7 @@
 
 ## 13. Create Product model and migration
 
-
+## 14. Register Produc model in product admin
 
 
 

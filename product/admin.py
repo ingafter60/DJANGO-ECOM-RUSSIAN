@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from product.models import Category
+from product.models import Category, Product
 
 # Setting up the display category in admin panel
 class CategoryAdmin(admin.ModelAdmin):
@@ -9,3 +9,4 @@ class CategoryAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(Category, CategoryAdmin)
+admin.site.register(Product)
