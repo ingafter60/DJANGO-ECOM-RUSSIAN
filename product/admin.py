@@ -7,6 +7,13 @@ class CategoryAdmin(admin.ModelAdmin):
     list_display = ['title','parent', 'status']
     list_filter = ['status']
 
+
+# Setting up the display product in admin panel
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ['title','category', 'status','image_tag']
+    list_filter = ['category']
+    readonly_fields = ('image_tag',)
+
 # Register your models here.
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(Product)
+admin.site.register(Product, ProductAdmin)

@@ -33,3 +33,5 @@
 ## 16. Add some items to products
 
 ## 17. Install django-ckeditor for product descrition field
+
+## 18. Register Product model to admin and add fake image field in products table to show image in admin panel
