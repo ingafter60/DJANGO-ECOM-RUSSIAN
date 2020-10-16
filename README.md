@@ -32,4 +32,4 @@
 
 ## 16. Add some items to products
 
-
+## 17. Install django-ckeditor for product descrition field
