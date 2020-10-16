@@ -22,6 +22,8 @@
 
 ## 11. Add category + image, child category + image
 
+## 12. Setting up the display for categories and their children in admin panel
+
 
 
 
