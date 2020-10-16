@@ -8,11 +8,16 @@ class CategoryAdmin(admin.ModelAdmin):
     list_filter = ['status']
 
 
+class ProductImageInline(admin.TabularInline):
+    model = Images
+    extra = 5
+
 # Setting up the display product in admin panel
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['title','category', 'status','image_tag']
     list_filter = ['category']
     readonly_fields = ('image_tag',)
+    inlines = [ProductImageInline]
 
 # Register your models here.
 admin.site.register(Category, CategoryAdmin)

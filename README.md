@@ -44,3 +44,5 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 ### 21. Register Images table to product app admin 
 
 ### 22. Create a new product with some images
+
+### 23. In product admin, create class of ProductImageInline to make a product can have more then one image
