@@ -1,4 +1,5 @@
 # BUILDING AN ECOMMERCE 'E-SHOP' USING DJANGO V3
+https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 
 ## 1. Initial commit
 
@@ -35,3 +36,5 @@
 ## 17. Install django-ckeditor for product descrition field
 
 ## 18. Register Product model to admin and add fake image field in products table to show image in admin panel
+
+## 19. Add git repo to github
