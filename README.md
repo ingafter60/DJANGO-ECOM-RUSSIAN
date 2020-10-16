@@ -16,9 +16,9 @@
 
 ## 8. Create product Category model as PARENT AND CHILDREN and register it to product admin
 
+## 9. Run migrations to create category table in the db 
 
-
-
+## 10. Setting up media files in project's settings.py and urls.py
 
 
 
