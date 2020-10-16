@@ -2,7 +2,7 @@
 
 ## 1. Initial commit
 
-
+## 2. Creating django project 'mysite' 
 
 
 
