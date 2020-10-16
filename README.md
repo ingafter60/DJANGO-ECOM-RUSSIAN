@@ -53,6 +53,8 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 
 	### 26. Register Setting model to home admin.py and fill in the setting form in admn panel
 
+	### 27. In navbar, create About us and Contact and create routes and display views using HttpResponse
+
 
 
 
