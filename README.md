@@ -24,6 +24,8 @@
 
 ## 12. Setting up the display for categories and their children in admin panel
 
+## 13. Create Product model and migration
+
 
 
 
