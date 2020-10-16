@@ -10,7 +10,7 @@
 
 ## 5. Added and loaded html template to home app
 
-
+## 6. Create django app 'product' and register it to settings 
 
 
 
