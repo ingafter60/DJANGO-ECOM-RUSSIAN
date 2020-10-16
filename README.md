@@ -50,3 +50,38 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 	### 24. Implemet Richtext Editor Ckeditor
 
 	### 25. In home app, create Setting model and run migration
+
+	### 26. Register Setting model to home admin.py and fill in the setting form in admn panel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
