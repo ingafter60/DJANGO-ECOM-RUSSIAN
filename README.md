@@ -61,6 +61,8 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 
 	### 30. Load setting information from db to contact page
 
+	### 31. Modified contact page without loading information from db
+
 
 
 
