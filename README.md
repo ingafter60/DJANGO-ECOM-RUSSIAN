@@ -59,6 +59,8 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 
 	### 29. Load setting information from db to about page
 
+	### 30. Load setting information from db to contact page
+
 
 
 

@@ -17,5 +17,10 @@ def aboutus(request):
 	return render(request, 'about.html', context)
 
 
+def contactus(request):
+	setting = Setting.objects.get(pk=1)
+	context = { 'setting':setting }
+	return render(request, 'contactus.html', context)
+
 
 
