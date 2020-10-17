@@ -2,12 +2,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+from home.models import Setting
 
 def index(request):
-    return render(request,'index.html')
+	setting = Setting.objects.get(pk=1)
+	context = { 'setting':setting }
+	return render(request, 'index.html', context)
 
-def aboutus(request):
-   return  HttpResponse("About")
 
-def contactus(request):
-   return  HttpResponse("Contact us")
+
+

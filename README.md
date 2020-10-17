@@ -55,6 +55,8 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 
 	### 27. In navbar, create About us and Contact and create routes and display views using HttpResponse
 
+	### 28. Load setting information from db to homepage 
+
 
 
 
