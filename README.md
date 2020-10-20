@@ -82,8 +82,13 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 	> 08.1.33. Added form tags to contactus.html
 		modified:   README.md
         modified:   home/templates/contactus.html
-
-
+	> 08.1.34. Replacing the html form by using Django Form
+	modified:   README.md
+        modified:   home/__pycache__/models.cpython-38.pyc
+        modified:   home/__pycache__/views.cpython-38.pyc
+        modified:   home/models.py
+        modified:   home/templates/contactus.html
+        modified:   home/views.py
 
 
 
