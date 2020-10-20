@@ -79,8 +79,9 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 		| create_at | datetime(6)  | NO   |     | NULL    |                |
 		| update_at | datetime(6)  | NO   |     | NULL    |                |
 		+-----------+--------------+------+-----+---------+----------------+
-
-
+	> 08.1.33. Added form tags to contactus.html
+		modified:   README.md
+        modified:   home/templates/contactus.html
 
 
 
