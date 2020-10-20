@@ -54,10 +54,31 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 	> 07.6.30. Load setting information from db to contact page
 	> 07.7.31. Modified contact page without loading information from db
 
+	> Modified README.md file
 
-	NOTE: end of video 7
+## Video 08. - Contact Us Form and Messages
 
-	NEXT: start video 8
+	> 08.1.32. Create ContactMessage model/table and run migration
+		modified:   README.md
+        modified:   home/__pycache__/models.cpython-38.pyc
+        new file:   home/migrations/0002_contactmessage.py
+        new file:   home/migrations/__pycache__/0002_contactmessage.cpython-38.pyc
+        modified:   home/models.py
+        mysql> desc home_contactmessage;
+		+-----------+--------------+------+-----+---------+----------------+
+		| Field     | Type         | Null | Key | Default | Extra          |
+		+-----------+--------------+------+-----+---------+----------------+
+		| id        | int(11)      | NO   | PRI | NULL    | auto_increment |
+		| name      | varchar(20)  | NO   |     | NULL    |                |
+		| email     | varchar(50)  | NO   |     | NULL    |                |
+		| subject   | varchar(50)  | NO   |     | NULL    |                |
+		| message   | longtext     | NO   |     | NULL    |                |
+		| status    | varchar(10)  | NO   |     | NULL    |                |
+		| ip        | varchar(20)  | NO   |     | NULL    |                |
+		| note      | varchar(100) | NO   |     | NULL    |                |
+		| create_at | datetime(6)  | NO   |     | NULL    |                |
+		| update_at | datetime(6)  | NO   |     | NULL    |                |
+		+-----------+--------------+------+-----+---------+----------------+
 
 
 
