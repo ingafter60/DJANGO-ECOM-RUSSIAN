@@ -89,6 +89,12 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
         modified:   home/models.py
         modified:   home/templates/contactus.html
         modified:   home/views.py
+	> 08.1.35. Setting up for customer to send messages to admin and make admin to mark the message's status
+		modified:   home/__pycache__/admin.cpython-38.pyc
+        modified:   home/__pycache__/views.cpython-38.pyc
+        modified:   home/admin.py
+        modified:   home/templates/contactus.html
+        modified:   home/views.py
 
 
 

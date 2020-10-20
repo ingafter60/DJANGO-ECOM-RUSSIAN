@@ -27,75 +27,28 @@
             <div class="row">
 
                 <div class="col-md-4">
-                    <form id="checkout-form" class="clearfix" method="post">
-                        <div class="billing-details">
 
-                            <div class="section-title">
-                                <h3 class="title">Contact Form</h3>
-                            </div>
+                    <div class="billing-details">
+                        
+                        <div class="section-title">
+                            <h3 class="title">Contact Form</h3>
 
-                            {{ form.as_table}}
-                            <input type="submit" value="SEND FORM">
-
-                            <!-- NOTE: The above {{ form.as_table}} produces the same form table as seen bellow -->
-
-                            <tr>
-                                <th>
-                                    <label for="id_name">Name:</label>
-                                </th>
-                                <td>
-                                    <input 
-                                        type="text" 
-                                        name="name" 
-                                        class="input" 
-                                        placeholder="Name &amp; Surname" 
-                                        maxlength="20" id="id_name">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label for="id_email">Email:</label>
-                                </th>
-                                <td>
-                                    <input 
-                                        type="text" 
-                                        name="email" 
-                                        class="input" 
-                                        placeholder="Email Address" 
-                                        maxlength="50" id="id_email">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label for="id_subject">Subject:</label>
-                                </th>
-                                <td>
-                                    <input 
-                                        type="text" 
-                                        name="subject" 
-                                        class="input" 
-                                        placeholder="Subject" 
-                                        maxlength="50" id="id_subject">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label for="id_message">Message:</label>
-                                </th>
-                                <td>
-                                    <textarea 
-                                        name="message" 
-                                        cols="40" rows="5" 
-                                        class="input" 
-                                        placeholder="Your Message" 
-                                        maxlength="255" id="id_message">
-                                    </textarea>
-                                </td>
-                            </tr>
-                            <input type="submit" value="SEND FORM">
+                            {% if messages %}
+                                {% for message in messages %}
+                                    <div class="alert alert-{{message.tags}}" role="alert">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
 
                         </div>
-                    </form>
+                        <form id="checkout-form" class="clearfix" method="post">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <input type="submit" value="SEND FORM">
+                        </form>
+                    </div>
+
                 </div>
 
                 <div class="col-md-8">
