@@ -102,7 +102,14 @@ https://github.com/celikyuksell/Django-E-Commerce
         modified:   README.md
         modified:   mysite/__pycache__/settings.cpython-38.pyc
         modified:   mysite/settings.py
-
+	> 09.2.37. Setup the mptt after the installion based on its installion guide
+		https://django-mptt.readthedocs.io/en/latest/tutorial.html
+        modified:   README.md
+        modified:   mysite/__pycache__/settings.cpython-38.pyc
+        modified:   product/__pycache__/models.cpython-38.pyc
+        new file:   product/migrations/0004_auto_20201021_0919.py
+        new file:   product/migrations/__pycache__/0004_auto_20201021_0919.cpython-38.pyc
+        modified:   product/models.py		
 
 
 
