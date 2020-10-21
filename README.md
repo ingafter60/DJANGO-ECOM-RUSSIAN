@@ -1,6 +1,6 @@
 # BUILDING AN ECOMMERCE 'E-SHOP' USING DJANGO V3
 https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
-
+https://github.com/celikyuksell/Django-E-Commerce
 
 ## Video 01. - Installation and setup
 
@@ -96,7 +96,12 @@ https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
         modified:   home/templates/contactus.html
         modified:   home/views.py
 
+## Video 09. Category Tree Subcategory menu
 
+	> 09.1.36. Install django-mptt and register it to settings
+        modified:   README.md
+        modified:   mysite/__pycache__/settings.cpython-38.pyc
+        modified:   mysite/settings.py
 
 
 

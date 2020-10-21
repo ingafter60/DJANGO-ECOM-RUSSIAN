@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # new
+    'mptt',
     'home.apps.HomeConfig',
     'product.apps.ProductConfig',
     'ckeditor',
