@@ -110,8 +110,44 @@ https://github.com/celikyuksell/Django-E-Commerce
         new file:   product/migrations/0004_auto_20201021_0919.py
         new file:   product/migrations/__pycache__/0004_auto_20201021_0919.cpython-38.pyc
         modified:   product/models.py		
-
-
+    > 09.3.38. Category tables: befor and after adding mptt   
+		mysql> desc product_category;                                                
+		+-------------+--------------+------+-----+---------+----------------+       
+		| Field       | Type         | Null | Key | Default | Extra          |       
+		+-------------+--------------+------+-----+---------+----------------+       
+		| id          | int(11)      | NO   | PRI | NULL    | auto_increment |       
+		| title       | varchar(30)  | NO   |     | NULL    |                |       
+		| keywords    | varchar(255) | NO   |     | NULL    |                |       
+		| description | varchar(255) | NO   |     | NULL    |                |       
+		| image       | varchar(100) | NO   |     | NULL    |                |  <--- without mptt     
+		| status      | varchar(10)  | NO   |     | NULL    |                |       
+		| slug        | varchar(50)  | NO   | MUL | NULL    |                |       
+		| create_at   | datetime(6)  | NO   |     | NULL    |                |       
+		| update_at   | datetime(6)  | NO   |     | NULL    |                |       
+		| parent_id   | int(11)      | YES  | MUL | NULL    |                |       
+		+-------------+--------------+------+-----+---------+----------------+       
+		10 rows in set (0.09 sec)                                                    
+		                                                                             
+		mysql> desc product_category;                                                
+		+-------------+------------------+------+-----+---------+----------------+   
+		| Field       | Type             | Null | Key | Default | Extra          |   
+		+-------------+------------------+------+-----+---------+----------------+   
+		| id          | int(11)          | NO   | PRI | NULL    | auto_increment |   
+		| title       | varchar(30)      | NO   |     | NULL    |                |   
+		| keywords    | varchar(255)     | NO   |     | NULL    |                |   
+		| description | varchar(255)     | NO   |     | NULL    |                |   <--- with mptt   
+		| image       | varchar(100)     | NO   |     | NULL    |                |   
+		| status      | varchar(10)      | NO   |     | NULL    |                |   
+		| slug        | varchar(50)      | NO   | MUL | NULL    |                |   
+		| create_at   | datetime(6)      | NO   |     | NULL    |                |   
+		| update_at   | datetime(6)      | NO   |     | NULL    |                |   
+		| parent_id   | int(11)          | YES  | MUL | NULL    |                |   
+		| level       | int(10) unsigned | NO   |     | NULL    |                |<-- new table rows after installing mptt   
+		| lft         | int(10) unsigned | NO   |     | NULL    |                |<-- new table rows after installing mptt   
+		| rght        | int(10) unsigned | NO   |     | NULL    |                |<-- new table rows after installing mptt   
+		| tree_id     | int(10) unsigned | NO   | MUL | NULL    |                |<-- new table rows after installing mptt   
+		+-------------+------------------+------+-----+---------+----------------+   
+		14 rows in set (0.00 sec)                                                    
 
 
 
