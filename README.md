@@ -1,7 +1,7 @@
 # BUILDING AN ECOMMERCE 'E-SHOP' USING DJANGO V3
 https://github.com/ingafter60/DJANGO-ECOM-RUSSIAN
 https://github.com/celikyuksell/Django-E-Commerce
-
+http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
 ## Video 01. - Installation and setup
 
 	> 01.1.1. Initial commit
@@ -148,8 +148,20 @@ https://github.com/celikyuksell/Django-E-Commerce
 		| tree_id     | int(10) unsigned | NO   | MUL | NULL    |                |<-- new table rows after installing mptt   
 		+-------------+------------------+------+-----+---------+----------------+   
 		14 rows in set (0.00 sec)                                                    
-
-
+    > 09.3.38. Modified the categories and products in the admin panel using the django-mptt
+        modified:   README.md
+        new file:   SQL.sql
+        modified:   product/__pycache__/admin.cpython-38.pyc
+        modified:   product/admin.py
+        new file:   uploads/images/Acer_C27_NQ8UdNb.jpg
+        new file:   uploads/images/Acer_C27_uinfEwB.jpg
+        new file:   uploads/images/electonic_PN2Nmq0.png
+        new file:   uploads/images/electronic-equip-mob_MeyRnQn.jpg
+        new file:   uploads/images/electronic-equip-mob_NxVRkh9.jpg
+        new file:   uploads/images/laptop.jpg
+        new file:   uploads/images/laptop_Tof6e4D.jpg
+        new file:   uploads/images/samsung_24_T4001_HD_TV_2020_YcANBfv.JPG
+        new file:   uploads/images/samsung_24_T4001_HD_TV_2020_rdrVyFL.JPG
 
 
 
