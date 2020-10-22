@@ -173,9 +173,9 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
     > 09.7.42. Add link to sub-catetory (for now they down page to render)
         modified:   README.md
         modified:   home/templates/sidebar.html
-
-
-
+    > 09.8.43. Add conditional to dropdown sidebar menu for sub-category
+        modified:   README.md
+        modified:   home/templates/sidebar.html
 
 
 
