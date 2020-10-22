@@ -148,7 +148,7 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
 		| tree_id     | int(10) unsigned | NO   | MUL | NULL    |                |<-- new table rows after installing mptt   
 		+-------------+------------------+------+-----+---------+----------------+   
 		14 rows in set (0.00 sec)                                                    
-    > 09.4.38. Modified the categories and products in the admin panel using the django-mptt
+    > 09.4.39. Modified the categories and products in the admin panel using the django-mptt
         modified:   README.md
         new file:   SQL.sql
         modified:   product/__pycache__/admin.cpython-38.pyc
@@ -167,8 +167,9 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
         modified:   home/__pycache__/views.cpython-38.pyc
         modified:   home/templates/sidebar.html
         modified:   home/views.py
-
-
+    > 09.6.41. Load category and sub-category to sidebar menu using django mptt
+        modified:   README.md
+        modified:   home/templates/sidebar.html
 
 
 
