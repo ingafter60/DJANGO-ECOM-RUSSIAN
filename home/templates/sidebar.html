@@ -1,4 +1,20 @@
 {% load static %}
+
+<!-- testing -->
+{% load mptt_tags %}
+<ul>
+    {% recursetree category %}
+        <li>
+            {{ node.title }}
+            {% if not node.is_leaf_node %}
+                <ul class="children">
+                    {{ children }}
+                </ul>
+            {% endif %}
+        </li>
+    {% endrecursetree %}
+</ul>
+<!--  -->
 	<!-- NAVIGATION -->
 	<div id="navigation">
 		<!-- container -->
