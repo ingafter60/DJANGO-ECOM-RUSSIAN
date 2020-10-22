@@ -185,10 +185,10 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
     > 09.10.45. Removing the rest of the content of the sidebar menu
         modified:   README.md
         modified:   home/templates/sidebar.html
-
-
-
-
+    > 09.11.46. Showing full_path of category/sub-category in admin panel 
+        modified:   README.md
+        modified:   product/__pycache__/models.cpython-38.pyc
+        modified:   product/models.py
 
 
 
