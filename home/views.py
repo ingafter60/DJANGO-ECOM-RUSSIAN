@@ -5,7 +5,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 from home.models import Setting, ContactForm, ContactMessage
 
-from product.models import Category
+from product.models import Category, Product
 
 def index(request):
     setting = Setting.objects.get(pk=1)
@@ -41,3 +41,9 @@ def contactus(request):
     form = ContactForm
     context={'setting':setting,'form':form  }
     return render(request, 'contactus.html', context)
+
+
+def category_products(request, id, slug):
+    setting = Setting.objects.get(pk=1)
+    products = Product.objects.filter(category_id=id)
+    return HttpResponse(products)

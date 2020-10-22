@@ -176,7 +176,12 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
     > 09.8.43. Add conditional to dropdown sidebar menu for sub-category
         modified:   README.md
         modified:   home/templates/sidebar.html
-
+    > 09.9.44. Rendering sub-category with id/slug using HttpResponse
+        modified:   README.md
+        modified:   home/__pycache__/views.cpython-38.pyc
+        modified:   home/views.py
+        modified:   mysite/__pycache__/urls.cpython-38.pyc
+        modified:   mysite/urls.py
 
 
 
