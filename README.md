@@ -170,8 +170,9 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
     > 09.6.41. Load category and sub-category to sidebar menu using django mptt
         modified:   README.md
         modified:   home/templates/sidebar.html
-
-
+    > 09.7.42. Add link to sub-catetory (for now they down page to render)
+        modified:   README.md
+        modified:   home/templates/sidebar.html
 
 
 

@@ -12,11 +12,17 @@
 				<div class="category-nav show-on-click">
 				{% endif %}	
 					<span class="category-header">Categories <i class="fa fa-list"></i></span>
+
 					{% load mptt_tags %}
 					<ul class="category-list">
 						{% recursetree category %}
 						<li class="dropdown side-dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">{{ node.title }}<i class="fa fa-angle-right"></i></a>
+							<a 
+								href="/category/{{node.id}}/{{node.slug}}"
+								class="dropdown-toggle" 
+								data-toggle="dropdown" 
+								aria-expanded="true">{{ node.title }}
+								<i class="fa fa-angle-right"></i></a>
 							<div class="custom-menu">
 								<div class="row">
 									<div class="col-md-4">
@@ -32,6 +38,7 @@
 							</div>
 						</li>
 						{% endrecursetree %}
+
 						<li><a href="#">Men’s Clothing</a></li>
 						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Phones & Accessories <i class="fa fa-angle-right"></i></a>
 							<div class="custom-menu">
