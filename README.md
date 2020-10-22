@@ -182,7 +182,9 @@ http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
         modified:   home/views.py
         modified:   mysite/__pycache__/urls.cpython-38.pyc
         modified:   mysite/urls.py
-
+    > 09.10.45. Removing the rest of the content of the sidebar menu
+        modified:   README.md
+        modified:   home/templates/sidebar.html
 
 
 
